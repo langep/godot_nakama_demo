@@ -8,9 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Control",
+"class": "Menu",
+"language": "GDScript",
+"path": "res://src/ui/Menu.gd"
+}, {
+"base": "Control",
+"class": "MenuList",
+"language": "GDScript",
+"path": "res://src/ui/MenuList.gd"
+} ]
 _global_script_class_icons={
-
+"Menu": "",
+"MenuList": ""
 }
 
 [application]

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/MainMenu/RegisterForm.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/MainMenu/LoginForm.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/MainMenu/LoginAndRegister.gd" type="Script" id=3]
+
+[node name="LoginAndRegister" type="CenterContainer"]
+anchor_left = 0.000438452
+anchor_right = 1.00044
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoginForm" parent="." instance=ExtResource( 2 )]
+
+[node name="RegisterForm" parent="." instance=ExtResource( 1 )]
+[connection signal="register_pressed" from="LoginForm" to="." method="_on_LoginForm_register_pressed"]
+[connection signal="login_pressed" from="RegisterForm" to="." method="_on_RegisterForm_login_pressed"]
