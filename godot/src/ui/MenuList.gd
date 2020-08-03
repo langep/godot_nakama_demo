@@ -37,4 +37,4 @@ func set_menu_current(value: Menu) -> void:
 
 # Updates the status panel of the active menu.
 func set_status(text: String) -> void:
-	menu_current.status(text)
+	menu_current.status = text
