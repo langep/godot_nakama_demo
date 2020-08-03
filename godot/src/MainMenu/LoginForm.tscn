@@ -1,12 +1,18 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://src/MainMenu/components/EmailValidate.tscn" type="PackedScene" id=1]
-[ext_resource path="res://src/ui/elements/Button.tscn" type="PackedScene" id=2]
-[ext_resource path="res://src/MainMenu/components/LoginPasswordValidate.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/MainMenu/Components/EmailValidate.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/UI/Components/Button.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/MainMenu/Components/LoginPasswordValidate.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/main_menu.theme" type="Theme" id=4]
 [ext_resource path="res://assets/fonts/info_font.tres" type="DynamicFont" id=5]
-[ext_resource path="res://src/ui/elements/StatusPanel.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/UI/Components/StatusPanel.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/MainMenu/LoginForm.gd" type="Script" id=7]
+
+
+
+
+
+
 
 
 

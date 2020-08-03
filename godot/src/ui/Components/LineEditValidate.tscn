@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://src/ui/elements/LineEditValidate.gd" type="Script" id=1]
-[ext_resource path="res://assets/stylebox/button_focused.tres" type="StyleBox" id=2]
+[ext_resource path="res://assets/stylebox/button_focused.tres" type="StyleBox" id=1]
+[ext_resource path="res://src/UI/Components/LineEditValidate.gd" type="Script" id=2]
 [ext_resource path="res://assets/main_menu.theme" type="Theme" id=3]
 
 [node name="LineEditValidate" type="LineEdit"]
@@ -9,11 +9,11 @@ margin_top = 18.0
 margin_right = 366.0
 margin_bottom = 42.0
 theme = ExtResource( 3 )
-custom_styles/focus = ExtResource( 2 )
+custom_styles/focus = ExtResource( 1 )
 context_menu_enabled = false
 shortcut_keys_enabled = false
 caret_blink = true
-script = ExtResource( 1 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
