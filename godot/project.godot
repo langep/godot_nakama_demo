@@ -12,17 +12,17 @@ _global_script_classes=[ {
 "base": "LineEdit",
 "class": "LineEditValidate",
 "language": "GDScript",
-"path": "res://src/UI/Components/LineEditValidate.gd"
+"path": "res://src/ui/components/LineEditValidate.gd"
 }, {
 "base": "Control",
 "class": "Menu",
 "language": "GDScript",
-"path": "res://src/UI/Menu.gd"
+"path": "res://src/ui/Menu.gd"
 }, {
 "base": "Control",
 "class": "MenuList",
 "language": "GDScript",
-"path": "res://src/UI/MenuList.gd"
+"path": "res://src/ui/MenuList.gd"
 } ]
 _global_script_class_icons={
 "LineEditValidate": "",

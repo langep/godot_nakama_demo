@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://src/UI/Components/StatusPanel.gd" type="Script" id=1]
+[ext_resource path="res://src/ui/components/StatusPanel.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/info_font.tres" type="DynamicFont" id=2]
 
 [node name="StatusPanel" type="PanelContainer"]
