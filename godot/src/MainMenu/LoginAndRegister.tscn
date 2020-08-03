@@ -17,5 +17,7 @@ __meta__ = {
 
 [node name="RegisterForm" parent="." instance=ExtResource( 1 )]
 visible = false
+[connection signal="login_pressed" from="LoginForm" to="." method="_on_LoginForm_login_pressed"]
 [connection signal="register_pressed" from="LoginForm" to="." method="_on_LoginForm_register_pressed"]
 [connection signal="login_pressed" from="RegisterForm" to="." method="_on_RegisterForm_login_pressed"]
+[connection signal="register_pressed" from="RegisterForm" to="." method="_on_RegisterForm_register_pressed"]

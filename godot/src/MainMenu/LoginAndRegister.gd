@@ -1,5 +1,8 @@
 extends MenuList
 
+signal login_pressed(email, password)
+signal register_pressed(email, password)
+
 onready var login_form := $LoginForm
 onready var register_form := $RegisterForm
 
@@ -23,3 +26,11 @@ func _on_LoginForm_register_pressed():
 
 func _on_RegisterForm_login_pressed():
 	self.menu_current = login_form
+
+
+func _on_LoginForm_login_pressed(email, password):
+	emit_signal("login_pressed", email, password)
+
+
+func _on_RegisterForm_register_pressed(email, password):
+	emit_signal("register_pressed", email, password)
